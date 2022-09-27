@@ -1,9 +1,10 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato:wght@300;400;700&family=Roboto:wght@500&display=swap');
 
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 html, body {
@@ -13,7 +14,7 @@ html, body {
 }
 
 body {
-    background: url("../imagens/fundo-madeira.jpg") no-repeat top center;
+    background: url("../imagens/papel-parede-tela.jpg") no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -23,22 +24,38 @@ main {
     position: relative;
 }
 
+.titulo {
+    text-align: center;
+    padding: 10px;
+    color: rgba(245, 245, 245, 0.932);
+    margin-right: 20px;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+
+}
+
+
+
 section#telefone {
     height: 627px;
-    width: 311px;
+    width: 450px;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: url('../imagens/frame-iphone.png') no-repeat;
+    left: 55%;
+    transform: translate(-70%, -44%);
+    background: url('../imagens/moldura-desenho.png') no-repeat;
 }
 
 iframe#tela {
     position: relative;
-    top: 80px;
-    left: 22px;
-    width: 269px;
-    height: 471px;
+    top: 84px;
+    left: 74px;
+    width: 293px;
+    height: 376px;
+    border-radius: 4px;
 }
 
 section#redes-sociais {
@@ -48,6 +65,7 @@ section#redes-sociais {
 
 section#redes-sociais img {
     width: 50px;
+    height: 50px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.507);
