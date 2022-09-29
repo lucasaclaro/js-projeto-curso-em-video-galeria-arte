@@ -38,6 +38,10 @@ h2 {
 }
 
 
+.icone-redes-sociais {
+    text-align: left;
+}
+
 
 section#telefone {
     height: 627px;
@@ -62,6 +66,14 @@ section#redes-sociais {
     text-align: right;
 }
 
+section#icones img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.507);
+    box-sizing: border-box;
+}
 
 section#redes-sociais img {
     width: 50px;
@@ -77,4 +89,20 @@ section#redes-sociais img:hover {
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
     transition: transform 0.3s;
+}
+
+.rodape-imagem {
+    margin-left: 20px;
+    width: 40px;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 160px;
+
+}
+
+.rodape img {
+    max-height: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+
 }
